@@ -21,7 +21,6 @@
 
 ### Step 1: Install dependencies
 
--
 - Set up the environment by running `make setup`. This will create a virtual environment in your home directory called `.devops`
 - Install dependencies by running `make install`
 - (Optionally) Lint application (requires hadolint)
