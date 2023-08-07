@@ -1,0 +1,18 @@
+# Run ./make_prediction.sh
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+# Output Log
+# Run ./run_kubernetes.sh
+
+Error from server (AlreadyExists): pods "hieucm2project4" already exists
+NAME              READY   STATUS    RESTARTS   AGE
+hieucm2project4   1/1     Running   0          2m31s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
